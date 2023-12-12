@@ -33,6 +33,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 /* -------------------- Special Paddings, Margins, and Text -------------------- */
 
 h1,
@@ -66,7 +70,8 @@ h4 {
     float: none;
 }
 
-.section-heading, .history-heading {
+.section-heading,
+.history-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -186,7 +191,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover{
+.cv-pdf i:hover {
     color: #e84610;
 }
 
@@ -228,7 +233,7 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 15px;
-    
+
 }
 
 
@@ -240,13 +245,15 @@ footer {
     clear: both;
 }
 
-.personal-info-item .key, .personal-info-item .value {
+.personal-info-item .key,
+.personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
-    
+
 }
 
-.personal-info-item .key p, .personal-info-item .value p {
+.personal-info-item .key p,
+.personal-info-item .value p {
     margin: 0;
 }
 
@@ -264,7 +271,7 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
-    
+
 }
 
 
@@ -340,4 +347,39 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/* -------------------- Contact Form -------------------- */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #3458db;
+
+}
+
+/* -------------------- Media Queries -------------------- */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
